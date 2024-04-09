@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Baiti</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form>
+        <p>Aprēķināt cik daudz informācijas var lejuplādēt
+            <input type="text" name="sek">
+        sekundēs, ja interneta ātrums ir 25 Mbps.</p>
+        <p>Atbilde</p>
+
+            <div>
+                <input name="rez">
+                <input type="radio" name="kib" onclick="rez.value=sek.value*(24414.0625/8)">KiB
+                <input type="radio" name="kb" onclick="rez.value=sek.value*(25000/8)">KB
+            </div>
+        
+        </form>
+
+    </body>
+</html>
